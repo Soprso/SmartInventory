@@ -59,7 +59,7 @@ class Program
                 Id = 4,
                 Name = "Introduction To C#",
                 Description = "Zero to Hero in C#",
-                Price =10
+                Price = 10
             };
             productRepo.AddElement(p4);
             books.Products.Add(p4); //Added to ICollection
@@ -77,6 +77,25 @@ class Program
             {
                 System.Console.WriteLine($" - Name  -> {prod.Name}, Price -> {prod.Price}, Descrption -> {prod.Description}");
             }
+        }
+
+        //search Product by Price
+        System.Console.WriteLine();
+        System.Console.WriteLine("Enter your minimum budget");
+        System.Console.WriteLine();
+        double price = Convert.ToDouble(Console.ReadLine());
+        var productsByPrice = productRepo.GetByCondition(e => e.Price > price);
+        if (productsByPrice.Any())
+        {
+            System.Console.WriteLine($"Products above {price} are :");
+            foreach (var prod in productsByPrice)
+            {
+                System.Console.WriteLine($"Name -> {prod.Name}, Price -> {prod.Price}, Description -> {prod.Description}");
+            }
+        }
+        else
+        {
+            System.Console.WriteLine($"Product abouve {price} not found");
         }
     }
 }
