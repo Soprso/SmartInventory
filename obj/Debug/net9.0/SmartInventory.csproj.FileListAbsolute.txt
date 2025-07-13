@@ -1,0 +1,15 @@
+D:\SmartInventory\bin\Debug\net9.0\SmartInventory.exe
+D:\SmartInventory\bin\Debug\net9.0\SmartInventory.deps.json
+D:\SmartInventory\bin\Debug\net9.0\SmartInventory.runtimeconfig.json
+D:\SmartInventory\bin\Debug\net9.0\SmartInventory.dll
+D:\SmartInventory\bin\Debug\net9.0\SmartInventory.pdb
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.GeneratedMSBuildEditorConfig.editorconfig
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.AssemblyInfoInputs.cache
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.AssemblyInfo.cs
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.csproj.CoreCompileInputs.cache
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.sourcelink.json
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.dll
+D:\SmartInventory\obj\Debug\net9.0\refint\SmartInventory.dll
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.pdb
+D:\SmartInventory\obj\Debug\net9.0\SmartInventory.genruntimeconfig.cache
+D:\SmartInventory\obj\Debug\net9.0\ref\SmartInventory.dll
